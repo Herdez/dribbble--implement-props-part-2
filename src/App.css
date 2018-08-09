@@ -34,19 +34,30 @@ ul {
   justify-content: center;
 }
 
-.filter-list {
+.filter {
+  background-color: white;
+  height: 50px;
+  border-bottom: 1px solid #E5E5E5;
+
+}
+
+.filter ul {
   display: flex;
+  align-items: center;
   justify-content: flex-end;
 }
 
-.filter-list li {
-  margin-left: 20px;
-  font-size: 10px;
+.filter li {
+  /*margin-left: 20px;
+  font-size: 10px;*/
+  margin: 0 6px;
 }
 
-.filter-list a {
-  color: #2C3E50;  
-  text-decoration: none;
+.filter a {
+  line-height: 50px;
+  color: #444;  
+  font-weight: bold;
+  
 }
 
 .header img {
@@ -83,10 +94,24 @@ ul {
   margin-right: 5px;
 }
 
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
   max-width: 1000px;
   margin: 40px auto;
   justify-content: space-between;
+}
+
+.fa.fa-chevron-down {
+  color: #BCBCBC;
+  font-size: 12px;
+}
+
+.liked {
+  color: #ED4888;
 }

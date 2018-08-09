@@ -108,7 +108,7 @@ export const dribbble = [{
   section: 'recent'
 }, {
   key: 13,
-  img: 'https://cdn.dribbble.com/users/467044/screenshots/4310495/unit_details_1x.gif',
+  img: 'https://cdn.dribbble.com/users/146798/screenshots/4928540/best-icons_1x.png',
   stats: ['3,398', '4', '161'],
   author: {
     avatar: 'https://cdn.dribbble.com/users/467044/avatars/mini/7a40b944ae0be45e1f942258f56ac94b.jpg?1431106862',
@@ -117,7 +117,7 @@ export const dribbble = [{
   section: 'recent'
 }, {
   key: 14,
-  img: 'https://cdn.dribbble.com/users/467044/screenshots/4293522/uptop-filetrs_1x.gif',
+  img: 'https://cdn.dribbble.com/users/1008875/screenshots/4930804/treasure-hunter_1x.png',
   stats: ['6,508', '9', '273'],
   author: {
     avatar: 'https://cdn.dribbble.com/users/1946520/avatars/mini/9bc3447e7b146f321a3203f947d48d07.png?1508755865',

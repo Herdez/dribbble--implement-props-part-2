@@ -3,7 +3,7 @@ import React from 'react';
 class Popular extends React.Component {
 	render(){
 		return (
-			<li><a href="">Popular</a></li>
+			<li><a href="">Popular <i className='fa fa-chevron-down' /></a></li>
 		);
 	}
 }
