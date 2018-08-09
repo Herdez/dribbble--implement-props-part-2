@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Header from './components/Header';
 import Shots from './components/Shots';
+import Filters from './components/Filters';
 import { name, year, month} from './data/Author';
 
 import './App.css';
@@ -18,6 +19,7 @@ class App extends Component {
     return (
       <div>
         <Header />
+        <Filters />
         <Shots />
         <p style={ styles }> Written by { name }, { year } </p>
       </div>

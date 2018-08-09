@@ -26,6 +26,29 @@ ul {
   justify-content: center;
 }
 
+.filter {
+  background-color: #E5E7E9;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter-list {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.filter-list li {
+  margin-left: 20px;
+  font-size: 10px;
+}
+
+.filter-list a {
+  color: #2C3E50;  
+  text-decoration: none;
+}
+
 .header img {
   width: 76px;
 }
